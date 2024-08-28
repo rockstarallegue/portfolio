@@ -1,0 +1,181 @@
+// app global css in SCSS form
+@font-face{
+  font-family: nasalization;
+  src: url(fonts/nasalization-rg.otf);
+}
+
+body{
+  // background: radial-gradient(circle at 60% 107%, $n-light-blue 0%, $n-mid-blue 50%, $n-heavy-blue 100%)
+  //background: radial-gradient(circle at 60% 107%, $cake-green 0%, $cake-lemon 50%, $n-light-lemon 100%)
+  // background: radial-gradient(circle at 60% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
+  // background-color: #1a1b1f;
+  // background: radial-gradient(circle at 107% 30%, $surface-1 0%, $surface-2 50%, $surface-3 100%);
+  // background: radial-gradient(circle at 107% 30%, $aqua-1 0%, $aqua-2 50%, $aqua-3 100%);
+  // background: radial-gradient(circle at 107% 30%, $surface-1 0%, $surface-2 50%, $aqua-3 100%);
+  background: #474E68;
+  // background: rgba(245, 245, 245);
+  // background: #BDBDBD;
+  // background: #EEEEEE;
+  // background: radial-gradient(circle at 30% 107%, $cake-purple 0%, $cake-pink 30%, $cake-lemon 60%, $cake-green 100%);
+  // background: linear-gradient(90deg, $aqua-1 15%, $cake-pink 20%, $cake-lemon 75%, $cake-green 100%);
+}
+
+.nasalization{
+  font-family: nasalization;
+}
+
+.anti-surface{
+  background: radial-gradient(circle at 107% 20%, $aqua-3 0%, $surface-2 60%, $aqua-3 100%);
+}
+
+.cake-grad{
+  // background: radial-gradient(circle at 30% 107%, $cake-purple 0%, $cake-pink 30%, $cake-lemon 60%, $cake-green 100%);
+  // background: radial-gradient(circle at 60% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
+  background: radial-gradient(circle at 107% 20%, $surface-2 20%, $aqua-3 100%);
+}
+
+.bg-grid{
+  // background: #474E68;
+  background: $n-mid-blue;
+  // background: radial-gradient(circle at 60% 107%, $n-light-blue 0%, $n-mid-blue 50%, $n-heavy-blue 100%)
+  // background: url(img/green-circuit.svg);
+  // background: url(img/green-trans-citcuit.svg);
+}
+
+
+.light-glass{
+  background: rgba(255, 243, 224, 0.5);
+  // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  // border: 1px solid rgba(251, 255, 255, 0.2);
+}
+
+.thick-glass{
+  background: rgba(2, 197, 204, 0.564);
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(4px);
+  // border: 1px solid rgba(245, 245, 245, 0.3);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.blue-borders{
+  border: 0.5px solid rgba(69, 90, 100, 0.3);
+
+}
+
+.inner-blue-shadow{
+  box-shadow: inset #B0BEC5 -1px -1px 0;
+}
+
+.blue-shadow{
+  box-shadow: #B0BEC5 1px 1px 0;
+}
+
+.inset-font{
+  color: #455A64;
+  text-shadow: #e0e0e0 1px 1px 0;
+}
+
+.child{
+  flex-grow: 1;
+}
+
+.full{
+  // height:100vh;
+  // width:100vw;
+  height: 100%;
+  width: 100%;
+}
+
+.h-inherit{
+  height: inherit;
+}
+
+.rounded-1{
+  // border-radius: 0em;
+  border-radius: 0.2em;
+}
+
+.rounded-2{
+  // border-radius: 0em;
+  border-radius: 1.5em;
+}
+
+.rounded-u-2{
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.rounded-b-2{
+  border-bottom-left-radius: 1.5em;
+  border-bottom-right-radius: 1.5em;
+}
+
+.rounded-3{
+  border-radius: 2.5em;
+}
+
+.rounded-10{
+  border-radius: 1em;
+}
+
+.rounded-u{
+  border-top-left-radius: 0.66em;
+  border-top-right-radius: 0.66em;
+}
+
+.rounded-u-1{
+  border-top-left-radius: 0.33em;
+  border-top-right-radius: 0.33em;
+}
+
+.rounded-d{
+  border-bottom-left-radius: 0.66em;
+  border-bottom-right-radius: 0.66em;
+}
+
+.rounded-l{
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.rounded-l-1{
+  border-top-left-radius: 0.33em;
+  border-bottom-left-radius: 0.33em;
+}
+
+.rounded-l-2{
+  border-top-left-radius: 0.66em;
+  border-bottom-left-radius: 0.66em;
+}
+
+.rounded-r-2{
+  border-top-right-radius: 0.66em;
+  border-bottom-right-radius: 0.66em;
+}
+
+.rounded-r-u-2{
+  border-bottom-right-radius: 0.66em;
+}
+
+.rounded-l-d-2{
+  border-bottom-left-radius: 0.66em;
+}
+
+.center {
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container-full {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
