@@ -20,18 +20,30 @@ body{
   // background: linear-gradient(90deg, $aqua-1 15%, $cake-pink 20%, $cake-lemon 75%, $cake-green 100%);
 }
 
+.bg-cloudy{
+  background: url(img/cloudy_2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .nasalization{
   font-family: nasalization;
 }
 
 .anti-surface{
-  background: radial-gradient(circle at 107% 20%, $aqua-3 0%, $surface-2 60%, $aqua-3 100%);
+  background: radial-gradient(circle at 0% 107%, $n-light-lemon 0%, $n-light-blue 100%, $n-light-lemon 100%);
 }
 
 .cake-grad{
   // background: radial-gradient(circle at 30% 107%, $cake-purple 0%, $cake-pink 30%, $cake-lemon 60%, $cake-green 100%);
-  // background: radial-gradient(circle at 60% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
-  background: radial-gradient(circle at 107% 20%, $surface-2 20%, $aqua-3 100%);
+  background: radial-gradient(circle at 70% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
+  // background: radial-gradient(circle at 107% 20%, $surface-2 20%, $aqua-3 100%);
+}
+
+.anti-cake-grad{
+  // background: radial-gradient(circle at 30% 107%, $cake-purple 0%, $cake-pink 30%, $cake-lemon 60%, $cake-green 100%);
+  background: radial-gradient(circle at 40% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
+  // background: radial-gradient(circle at 107% 20%, $surface-2 20%, $aqua-3 100%);
 }
 
 .bg-grid{
@@ -44,7 +56,7 @@ body{
 
 
 .light-glass{
-  background: rgba(255, 243, 224, 0.5);
+  background: rgba(255, 243, 224, 0.6);
   // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(4px);
@@ -79,7 +91,8 @@ body{
 
 .inset-font{
   color: #455A64;
-  text-shadow: #e0e0e0 1px 1px 0;
+  font-weight: bold;
+  text-shadow: #ffffff 1px 1px 0;
 }
 
 .child{
@@ -109,6 +122,14 @@ body{
 
 .rounded-u-2{
   border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+}
+
+.rounded-u-l-2{
+  border-top-left-radius: 1.5em;
+}
+
+.rounded-u-r-2{
   border-top-right-radius: 1.5em;
 }
 

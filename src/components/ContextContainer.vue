@@ -1,12 +1,15 @@
 <template>
   <div class="child full bg-blue-grey-8 rounded-2 container">
-   <div class="center">
-    <img
-      alt="Quasar logo"
-      src="~assets/saturn_mid.png"
-      style="width: 69px; height: 69px"
-    >
-   </div>
+    <div class="child full bg-cloudy rounded-2 blue-borders container">
+      <div class="center blue-borders nasalization text-orange-1">
+        pathos.cloud
+        <img
+          alt="Quasar logo"
+          src="~assets/saturn_mid.png"
+          style="width: 69px; height: 69px"
+        >
+      </div>
+    </div>
   </div>
 </template>
 

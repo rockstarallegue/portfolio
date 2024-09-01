@@ -17,18 +17,20 @@
           style="height: 64em; max-height: 100%"
         >
         <template v-slot:before>
-            <div class="q-pa-md full container">
-              <NodeContainer></NodeContainer>
+            <div class="full cake-grad rounded-u-l-2 container blue-borders">
+              <div class="full child light-glass q-pa-md rounded-u-l-2 blue-borders">
+                <MainContainer></MainContainer>
+              </div>
             </div>
           </template>
 
           <template v-slot:separator>
-            <q-avatar rounded color="blue-grey-8" text-color="white" size="sm"
-                      icon="grain" class="q-pa-none"/>
+            <q-avatar round color="blue-grey-8" text-color="orange-1" size="sm"
+                      icon="grain" class="q-pa-none shadow-1"/>
           </template>
 
           <template v-slot:after>
-            <div class="q-pa-md full container">
+            <div class="q-pa-md full container blue-borders">
               <ContextContainer></ContextContainer>
             </div>
           </template>
@@ -36,8 +38,8 @@
       </template>
 
       <template v-slot:separator>
-        <q-avatar rounded color="blue-grey-8" text-color="white" size="sm"
-                  icon="grain" class="q-pa-none"/>
+        <q-avatar round color="blue-grey-8" text-color="orange-1" size="sm"
+                  icon="grain" class="q-pa-none shadow-1"/>
       </template>
 
       <template v-slot:after>
@@ -48,18 +50,18 @@
           style="height: 64em; max-height: 100%"
         >
         <template v-slot:before>
-            <div class="q-pa-md full container">
+            <div class="q-pa-md full container blue-borders">
               <ContextContainer></ContextContainer>
             </div>
           </template>
 
           <template v-slot:separator>
-            <q-avatar rounded color="blue-grey-8" text-color="white" size="sm"
-                      icon="grain" class="q-pa-none"/>
+            <q-avatar round color="blue-grey-8" text-color="orange-1" size="sm"
+                      icon="grain" class="q-pa-none shadow-1"/>
           </template>
 
           <template v-slot:after>
-            <div class="q-pa-md full container">
+            <div class="q-pa-md full container blue-borders">
               <ContextContainer></ContextContainer>
             </div>
           </template>
@@ -72,11 +74,11 @@
 
 <script>
 import { defineComponent, ref } from 'vue';
-import NodeContainer from 'src/components/NodeContainer.vue';
+import MainContainer from 'src/components/MainContainer.vue';
 import ContextContainer from 'src/components/ContextContainer.vue';
 
 export default defineComponent({
-  components: { NodeContainer, ContextContainer },
+  components: { MainContainer, ContextContainer },
   name: 'SplitterBoard',
   setup() {
     return {

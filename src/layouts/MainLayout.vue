@@ -35,16 +35,16 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <div class="bg-blue-grey-8 rounded-2 q-pa-none center">
-          <q-avatar>
+        <div class="bg-blue-grey-8 rounded-2 inset-font q-pa-none center">
+          <q-avatar class="inset-font q-mx-sm center" size="3em">
             <img src="~assets/saturn_mid.png">
           </q-avatar>
         </div>
         <q-toolbar-title>
-          Pathos.Cloud
+          PATHOS.CLOUD
         </q-toolbar-title>
 
-        <div>PATHCHAIN V 1.1.46</div>
+        <div>pathchain V 1.1.46</div>
       </q-toolbar>
     </q-footer>
   </q-layout>
