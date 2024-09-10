@@ -1,8 +1,8 @@
 {
   "name": "allegue-portfolio",
   "version": "0.0.1",
-  "description": "Allegue's portfolio",
-  "productName": "Allegue's portfolio",
+  "description": "Pathos Cloud",
+  "productName": "Pathos Cloud",
   "author": "Allegue <mariedere33@gmail.com>",
   "private": true,
   "scripts": {

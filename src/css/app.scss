@@ -12,7 +12,8 @@ body{
   // background: radial-gradient(circle at 107% 30%, $surface-1 0%, $surface-2 50%, $surface-3 100%);
   // background: radial-gradient(circle at 107% 30%, $aqua-1 0%, $aqua-2 50%, $aqua-3 100%);
   // background: radial-gradient(circle at 107% 30%, $surface-1 0%, $surface-2 50%, $aqua-3 100%);
-  background: #474E68;
+  // background: #474E68;
+  background: black;
   // background: rgba(245, 245, 245);
   // background: #BDBDBD;
   // background: #EEEEEE;
@@ -20,9 +21,35 @@ body{
   // background: linear-gradient(90deg, $aqua-1 15%, $cake-pink 20%, $cake-lemon 75%, $cake-green 100%);
 }
 
-.bg-cloudy{
-  background: url(img/cloudy_2.svg);
+.bg-noise{
+  background: url(img/nnnoise.svg);
   background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-poli{
+  background: url(img/180_3.svg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  // transform: rotate(180deg);
+}
+
+.bg-cloudy{
+  background: url(img/cloudy.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-circuity{
+  background: url(img/c6.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-circuity-l{
+  background: url(img/c7.svg);
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -31,6 +58,10 @@ body{
 }
 
 .anti-surface{
+  background: radial-gradient(circle at 20%, $n-light-lemon 10%, $n-light-blue 30%, $n-light-lemon 100%);
+}
+
+.lemon-grad{
   background: radial-gradient(circle at 0% 107%, $n-light-lemon 0%, $n-light-blue 100%, $n-light-lemon 100%);
 }
 
@@ -55,8 +86,16 @@ body{
 }
 
 
+.u-light-glass{
+  background: rgba(255, 243, 224, 0.2);
+  // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(4px);
+  // border: 1px solid rgba(251, 255, 255, 0.2);
+}
+
 .light-glass{
-  background: rgba(255, 243, 224, 0.6);
+  background: rgba(255, 243, 224, 0.5);
   // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(4px);
@@ -78,7 +117,9 @@ body{
 
 .blue-borders{
   border: 0.5px solid rgba(69, 90, 100, 0.3);
-
+}
+.golden-borders{
+  border: 0.3px solid rgba(255, 243, 224, 0.2);
 }
 
 .inner-blue-shadow{
@@ -112,12 +153,17 @@ body{
 
 .rounded-1{
   // border-radius: 0em;
-  border-radius: 0.2em;
+  border-radius: 1em;
 }
 
 .rounded-2{
   // border-radius: 0em;
   border-radius: 1.5em;
+}
+
+.rounded-r-2{
+  border-bottom-right-radius: 1.5em;
+  border-top-right-radius: 1.5em;
 }
 
 .rounded-u-2{
@@ -131,6 +177,14 @@ body{
 
 .rounded-u-r-2{
   border-top-right-radius: 1.5em;
+}
+
+.rounded-b-l-2{
+  border-bottom-left-radius: 1.5em;
+}
+
+.rounded-b-r-2{
+  border-bottom-right-radius: 1.5em;
 }
 
 .rounded-b-2{

@@ -25,8 +25,8 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer class="bg-orange-1 text-blue-grey-8 nasalization inset-font shadow-3">
-      <q-toolbar>
+    <q-footer class="bg-orange-1 text-grey-8 nasalization shadow-3">
+      <q-toolbar class="light-glass">
         <q-btn
           flat
           dense
@@ -35,16 +35,19 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-        <div class="bg-blue-grey-8 rounded-2 inset-font q-pa-none center">
-          <q-avatar class="inset-font q-mx-sm center" size="3em">
-            <img src="~assets/saturn_mid.png">
-          </q-avatar>
+        <div class="bg-noise rounded-2 center">
+          <div class="u-light-glass rounded-2 q-pa-none q-px-xs center">
+            <q-avatar class="q-mx-md center" size="2.8em">
+              <img src="~assets/saturn_mid.png">
+            </q-avatar>
+          </div>
+
         </div>
         <q-toolbar-title>
-          PATHOS.CLOUD
+          <div class="text-grey-8">PATHOS.CLOUD</div>
         </q-toolbar-title>
 
-        <div>pathchain V 1.1.46</div>
+        <div class="text-grey-8">pathchain V 1.1.46</div>
       </q-toolbar>
     </q-footer>
   </q-layout>

@@ -1,22 +1,22 @@
 <template>
-  <div class="child full bg-blue-grey-8 rounded-2 container">
-   <div class="full row rounded-2 blue-borders">
-    <div class="child full col-6 q-py-sm q-pl-sm q-pr-sm container">
+  <div class="child full rounded-u-l-2 blue-borders light-glass container">
+   <div class="full row rounded-u-l-2 blue-borders">
+    <div class="child full col-6 q-pa-none container">
       <!-- COMMITTERS BOX -->
-      <div class="child full col-5 rounded-2 shadow-1 container">
+      <div class="child full col-5 rounded-2 container">
         <NodeBox></NodeBox>
       </div>
     </div>
-    <div class="child full col q-py-sm q-pl-xs q-pr-sm container">
+    <q-separator vertical color="blue-grey-3"/>
+    <div class="child full col q-pa-none container">
       <div class="child full column rounded-2">
         <!-- COMMITTERS BOX -->
-        <div class="child full col-5 rounded-2 shadow-1 container">
+        <div class="child full col-5 rounded-2 container">
           <CommittersBox></CommittersBox>
         </div>
-        <!-- AESTHETIC SPACE -->
-        <div class="child full col"></div>
+        <q-separator horizontal color="blue-grey-3"/>
         <!-- COMMITTERS BOX -->
-        <div class="child full col-6 rounded-2 shadow-1 container">
+        <div class="child full col-6 rounded-2 container">
           <TagsBox></TagsBox>
         </div>
       </div>

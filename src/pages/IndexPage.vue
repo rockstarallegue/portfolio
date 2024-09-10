@@ -1,6 +1,6 @@
 <template>
-  <q-page class="flex flex-center bg-blue-grey-8 q-pa-sm container">
-      <div class="full child q-pa-none container rounded-2 shadow-2">
+  <q-page class="flex flex-center q-pa-none bg-noise container">
+      <div class="full child q-pa-sm container u-light-glass">
         <SplitterBoard></SplitterBoard>
       </div>
 
