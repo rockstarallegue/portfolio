@@ -6,23 +6,23 @@
           <q-btn flat size="0.8em" color="grey-8" icon="label"
                  label="LABELS" class="q-pa-none q-ma-none" />
         </div>
-        <q-separator vertical color="blue-grey-3"/>
+        <q-separator vertical color="grey-6"/>
         <div class="col-1 text-center q-py-xs">
           <q-btn flat size="0.8em" color="grey-8" icon="more_vert" class="q-pa-none"/>
         </div>
-        <q-separator vertical color="blue-grey-3"/>
+        <q-separator vertical color="grey-6"/>
         <div class="col-2 text-center q-pa-xs">
           <q-btn flat size="0.8em" color="grey-8" icon="tune" class="q-pa-none"/>
         </div>
-        <q-separator vertical color="blue-grey-3"/>
+        <q-separator vertical color="grey-6"/>
         <div class="col-2 text-center q-pa-xs">
           <q-btn flat size="0.8em" color="grey-8" icon="add" class="q-pa-none"/>
         </div>
       </div>
-      <q-separator horizontal color="blue-grey-3"/>
+      <q-separator horizontal color="grey-6"/>
       <div class="child full-width col-9 q-pa-sm container">
-        <div class="child full bg-noise blue-borders rounded-1 container">
-          <div class="child full u-light-glass rounded-1 q-pa-md container">
+        <div class="child full bg-noise  rounded-1 container">
+          <div class="child full u-light-glass blue-borders rounded-1 q-pa-md container">
             <q-carousel
               v-model="slide"
               vertical

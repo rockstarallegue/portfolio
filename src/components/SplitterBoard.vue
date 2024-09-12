@@ -2,8 +2,8 @@
   <div class="child full container blue-borders rounded-2">
     <q-splitter
       v-model="insideModel"
-      separator-class="u-light-glass"
-      separator-style="height: 5px"
+      separator-class="transparent"
+      separator-style="height: 6px"
       class="child full rounded-2 q-pa-xs"
       horizontal
       style="height: 50em;"
@@ -12,58 +12,64 @@
       <template v-slot:before>
         <q-splitter
           v-model="splitterModelA"
-          separator-class="u-light-glass"
-          separator-style="width: 5px"
+          separator-class="transparent"
+          separator-style="width: 6px"
           class="child full rounded-2"
           style="height: 64em; max-height: 100%"
         >
         <template v-slot:before>
-            <div class="full anti-surface rounded-u-l-2 container blue-borders">
-              <div class="full child  q-pa-none rounded-u-l-2">
+            <div class="full blue-surface rounded-u-l-2 container">
+              <div class="full child q-pa-none light-glass rounded-u-l-2">
                 <MainContainer></MainContainer>
               </div>
             </div>
           </template>
 
           <template v-slot:separator>
-            <q-avatar round color="grey-8" text-color="orange-1" size="sm"
-                      icon="grain" class="q-pa-none shadow-1"/>
+            <q-avatar round text-color="grey-8" color="lime-3" size="sm"
+                      icon="grain" class="q-pa-none shadow-2 center"/>
           </template>
 
           <template v-slot:after>
-            <div class="q-pa-md full container rounded-u-r-2 blue-borders">
-              <ContextContainer></ContextContainer>
+            <div class="full red-surface rounded-u-r-2 container">
+              <div class="full child q-pa-sm light-glass blue-borders rounded-u-r-2">
+                <ContextContainer></ContextContainer>
+              </div>
             </div>
           </template>
         </q-splitter>
       </template>
 
       <template v-slot:separator>
-        <q-avatar round color="grey-8" text-color="orange-1" size="sm"
-                  icon="grain" class="q-pa-none shadow-1"/>
+        <q-avatar round text-color="grey-8" color="yellow-3" size="sm"
+                  icon="grain" class="q-pa-none shadow-2 center"/>
       </template>
 
       <template v-slot:after>
         <q-splitter
           v-model="splitterModelB"
-          separator-class="u-light-glass"
-          separator-style="width: 5px"
+          separator-class="transparent"
+          separator-style="width: 6px"
           style="height: 64em; max-height: 100%"
         >
         <template v-slot:before>
-            <div class="q-pa-md full container rounded-b-l-2 blue-borders">
-              <ContextContainer></ContextContainer>
+            <div class="full red-surface-bottom rounded-b-2 container">
+              <div class="full child q-pa-sm light-glass blue-borders rounded-b-2 ">
+                <ContextContainer></ContextContainer>
+              </div>
             </div>
           </template>
 
           <template v-slot:separator>
-            <q-avatar round color="grey-8" text-color="orange-1" size="sm"
-                      icon="grain" class="q-pa-none shadow-1"/>
+            <q-avatar round text-color="grey-8" color="orange-3" size="sm"
+                      icon="grain" class="q-pa-none shadow-2 center"/>
           </template>
 
           <template v-slot:after>
-            <div class="q-pa-md full container rounded-b-r-2 blue-borders">
-              <ContextContainer></ContextContainer>
+            <div class="full red-surface-bottom rounded-b-2 container">
+              <div class="full child q-pa-sm light-glass blue-borders rounded-b-2">
+                <ContextContainer></ContextContainer>
+              </div>
             </div>
           </template>
         </q-splitter>

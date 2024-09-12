@@ -1,5 +1,5 @@
 <template>
-  <div class="child full rounded-u-l-2 blue-borders light-glass container">
+  <div class="child full rounded-u-l-2 container">
    <div class="full row rounded-u-l-2 blue-borders">
     <div class="child full col-6 q-pa-none container">
       <!-- COMMITTERS BOX -->
@@ -7,16 +7,16 @@
         <NodeBox></NodeBox>
       </div>
     </div>
-    <q-separator vertical color="blue-grey-3"/>
+    <q-separator vertical color="grey-6"/>
     <div class="child full col q-pa-none container">
       <div class="child full column rounded-2">
         <!-- COMMITTERS BOX -->
-        <div class="child full col-5 rounded-2 container">
+        <div class="child full col-4 rounded-2 container">
           <CommittersBox></CommittersBox>
         </div>
-        <q-separator horizontal color="blue-grey-3"/>
+        <q-separator horizontal color="grey-6"/>
         <!-- COMMITTERS BOX -->
-        <div class="child full col-6 rounded-2 container">
+        <div class="child full col-4 rounded-2 container">
           <TagsBox></TagsBox>
         </div>
       </div>
