@@ -19,7 +19,7 @@
         >
         <template v-slot:before>
             <div class="full blue-surface rounded-u-l-2 container">
-              <div class="full child q-pa-none light-glass rounded-u-l-2">
+              <div class="full child q-pa-none rounded-u-l-2">
                 <MainContainer></MainContainer>
               </div>
             </div>

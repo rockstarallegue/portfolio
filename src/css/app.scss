@@ -39,6 +39,10 @@ body{
   background-repeat: no-repeat;
 }
 
+.bg-dark-bg{
+  background-color: #252520;
+}
+
 .bg-poli{
   background: url(img/180_3.svg);
   background-size: cover;
@@ -49,6 +53,18 @@ body{
 
 .bg-cloudy{
   background: url(img/cloudy.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.vision-crack{
+  background: url(img/vision_crack.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-abyss{
+  background: url(img/abyss.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -74,11 +90,11 @@ body{
 }
 
 .red-surface{
-  background: radial-gradient(circle at 200% -40%, $n-light-red 60%, $n-light-lemon 80%);
+  background: radial-gradient(circle at 300% -40%, $n-light-red 60%, $n-light-lemon 80%);
 }
 
 .red-surface-bottom{
-  background: radial-gradient(circle at 50% 300%, $n-light-red 60%, $n-light-lemon 100%);
+  background: radial-gradient(circle at 50% 500%, $n-light-red 75%, $n-light-lemon 100%);
 }
 
 .lemon-grad{
@@ -87,8 +103,17 @@ body{
 
 .cake-grad{
   // background: radial-gradient(circle at 30% 107%, $cake-purple 0%, $cake-pink 30%, $cake-lemon 60%, $cake-green 100%);
-  background: radial-gradient(circle at 70% 107%, $n-light-pink 0%, $n-light-blue 50%, $n-light-lemon 100%)
+  background: radial-gradient(circle at 50% 50%, $n-light-blue 10%, $n-light-lemon 30%, $n-light-blue 100%)
+  // background: radial-gradient(circle at 50% 50%, $n-light-blue 30%, $n-light-lemon 200%)
   // background: radial-gradient(circle at 107% 20%, $surface-2 20%, $aqua-3 100%);
+}
+
+.cake-blue-grad{
+  background: radial-gradient(circle at 50% 50%, $n-light-blue 30%, $n-light-lemon 200%)
+}
+
+.cake-lemon-grad{
+  background: radial-gradient(circle at 50% 50%, $n-light-lemon 30%, $n-light-blue 200%)
 }
 
 .anti-cake-grad{
@@ -109,26 +134,43 @@ body{
 .u-light-glass{
   background: rgba(255, 243, 224, 0.2);
   // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(0.4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(0.3px);
+  -webkit-backdrop-filter: blur(2px);
   // border: 1px solid rgba(251, 255, 255, 0.2);
+}
+
+.u-thin-glass{
+  background: rgba(255, 243, 224, 0.1);
+  // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(0.2px);
+  -webkit-backdrop-filter: blur(2px);
+  // border: 1px solid rgba(251, 255, 255, 0.2);
+}
+
+.thick-glass{
+  background: rgba(255, 243, 224, 0.9);
+  // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(251, 255, 255, 0.8);
 }
 
 .light-glass{
-  background: rgba(255, 243, 224, 0.4);
+  background: rgba(255, 243, 224, 0.7);
   // box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(4px);
-  // border: 1px solid rgba(251, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(251, 255, 255, 0.9);
 }
 
+/*
 .thick-glass{
   background: rgba(2, 197, 204, 0.564);
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(4px);
   // border: 1px solid rgba(245, 245, 245, 0.3);
-}
+}*/
 
 .container{
   display: flex;
@@ -136,7 +178,8 @@ body{
 }
 
 .blue-borders{
-  border: 0.6px solid rgba(69, 90, 100, 0.3);
+  // border: 0.6px solid rgba(69, 90, 100, 0.3);
+  border: 0.6px solid rgba(61, 59, 54, 0.3);
 }
 .golden-borders{
   border: 0.3px solid rgba(255, 243, 224, 0.2);
@@ -171,6 +214,11 @@ body{
   height: inherit;
 }
 
+.rounded-66{
+  // border-radius: 0em;
+  border-radius: 0.66em;
+}
+
 .rounded-1{
   // border-radius: 0em;
   border-radius: 1em;
@@ -195,6 +243,10 @@ body{
   border-top-left-radius: 1.5em;
 }
 
+.rounded-u-l-1{
+  border-top-left-radius: 1em;
+}
+
 .rounded-u-r-2{
   border-top-right-radius: 1.5em;
 }
@@ -212,6 +264,15 @@ body{
   border-bottom-right-radius: 1.5em;
 }
 
+.rounded-b-1{
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.rounded-b-l-1{
+  border-bottom-left-radius: 1em;
+}
+
 .rounded-3{
   border-radius: 2.5em;
 }
@@ -226,8 +287,8 @@ body{
 }
 
 .rounded-u-1{
-  border-top-left-radius: 0.33em;
-  border-top-right-radius: 0.33em;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
 .rounded-d{

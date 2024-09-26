@@ -2,8 +2,8 @@
   <div class="child full rounded-2 container">
     <!--div class="q-px-xs nasalization text-grey-8">Context window</div-->
     <div class="child full bg-orange-1 blue-borders rounded-1 container">
-    <div class="child full bg-static-noise rounded-1 container">
-      <div class="child full blue-borders u-light-glass rounded-1 container">
+    <div class="child full bg-dark-bg rounded-1 container">
+      <div class="child full blue-borders rounded-1 container">
         <div class="center nasalization q-px-md q-pb-lg text-orange-1">
           pathos.cloud
           <img

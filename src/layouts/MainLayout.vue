@@ -4,7 +4,7 @@
       v-model="leftDrawerOpen"
       bordered
       transparent
-      class="anti-surface"
+      class="bg-orange-1"
     >
       <q-list class="thick-glass">
         <q-item-label
@@ -25,7 +25,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer class="bg-orange-1 text-grey-8 nasalization shadow-3">
+    <q-footer class="bg-orange-1 text-grey-8 nasalization">
       <q-toolbar class="light-glass">
         <q-btn
           flat
@@ -36,7 +36,7 @@
           @click="toggleLeftDrawer"
         />
         <div class="bg-noise rounded-2 center">
-          <div class="u-light-glass rounded-2 q-pa-none q-px-xs center">
+          <div class="u-thin-glass blue-borders rounded-2 q-pa-none q-px-xs center">
             <q-avatar class="q-mx-md center" size="2.8em">
               <img src="~assets/saturn_mid.png">
             </q-avatar>
@@ -139,30 +139,6 @@ const linksList = [
     caption: '@quasarframework',
     icon: 'rss_feed',
     link: 'https://twitter.quasar.dev',
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev',
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev',
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev',
   },
 ];
 
